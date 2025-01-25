@@ -11,3 +11,8 @@ class DUAIJALGORYTHM:
             SECOND = FIRST % SECOND     #  remainder
             FIRST = temp   # Update 'FIRST' to be the previous value of 'SECOND'
         return FIRST
+# for example
+# print("NBK of 36 and 65 is:", DUAIJALGORYTHM.nbk(36, 65))
+
+def enter_values():
+    """
