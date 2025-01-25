@@ -24,3 +24,5 @@ this function helps calculate the NBK and accept input.
     if FIRST <= 0 or SECOND <= 0:
         print("Error, Both numbers must be positive integers.")
         return 0
+          return (FIRST,SECOND)
+    
