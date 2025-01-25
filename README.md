@@ -25,4 +25,8 @@ this function helps calculate the NBK and accept input.
         print("Error, Both numbers must be positive integers.")
         return 0
           return (FIRST,SECOND)
-    
+    # Main
+data=enter_values()
+if (data!=0):
+    nbk=DUAIJALGORYTHM.nbk(data[0], data[1])
+    print(f"The NBK of {data[0]} and {data[1]} is: {nbk}")
