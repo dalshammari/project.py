@@ -16,3 +16,7 @@ class DUAIJALGORYTHM:
 
 def enter_values():
     """
+this function helps calculate the NBK and accept input.
+    """
+    FIRST = int(input("please enter the first positive integer: "))
+    SECOND = int(input("please enter the second positive integer: "))
