@@ -25,7 +25,6 @@ this function helps calculate the NBK and accept input.
         print("Error, Both numbers must be positive integers.")
         return 0
           return (FIRST,SECOND)
-   
     # Main
 data=enter_values()
 if (data!=0):
